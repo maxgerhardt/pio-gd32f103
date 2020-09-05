@@ -72,7 +72,9 @@ void check_receive_usart1() {
         rx_buf[0] = (char) usart_data_receive(USART1);
 
         //echo back instantly using null-terminated string print function
+        print_str_usart1("Received: '");
         print_str_usart1(rx_buf);
+        print_str_usart1("'\n");
     }
 }
 
