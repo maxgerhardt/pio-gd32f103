@@ -77,10 +77,10 @@ void check_receive_usart1() {
 }
 
 /* not used */
-/* define LED for PC_13 */
-#define MY_LED_PIN                         GPIO_PIN_13
-#define MY_LED_GPIO_PORT                   GPIOC
-#define MY_LED_GPIO_CLK                   RCU_GPIOC
+/* define LED for PB2 */
+#define MY_LED_PIN                         GPIO_PIN_2
+#define MY_LED_GPIO_PORT                   GPIOB
+#define MY_LED_GPIO_CLK                   RCU_GPIOB
 
 void custom_led_init() {
     /* enable the led clock */
