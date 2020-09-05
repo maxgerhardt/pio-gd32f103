@@ -74,7 +74,7 @@ void check_receive_usart1() {
         //echo back instantly using null-terminated string print function
         print_str_usart1("Received: '");
         print_str_usart1(rx_buf);
-        print_str_usart1("'\n");
+        print_str_usart1("'\r\n");
     }
 }
 
@@ -113,7 +113,7 @@ int main(void)
         //toggle
         custom_led_toggle();
         /* transmit stuff on the configured usart1 */
-        print_str_usart1("looping!\n");
+        print_str_usart1("looping!\r\n");
         //since we only check every 1000ms, and the
         //hardware's receive buffer is limited (I guess to 1 byte?)
         //one should only input 1 char at a time..
