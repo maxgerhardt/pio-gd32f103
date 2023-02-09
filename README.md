@@ -1,5 +1,9 @@
 # PlatformIO GD32F103xx series test
 
+# **DO NOT USE** 
+# This repository is outdated since a new project was started that supports GigaDevice (a lot of them) in a much much better way!
+# Read through https://github.com/platformio/platformio-core/issues/3927#issuecomment-888465652
+
 ## Description 
 
 Test project for integrating the Standard Peripheral Library (SPL) of GigaDevice GD32F103xx series chips with
